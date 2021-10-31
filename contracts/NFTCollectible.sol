@@ -40,4 +40,8 @@ contract NFTCollectible is Ownable, ERC721{
         return _nftBaseURI;
     }
 
+    function setBaseURI(string calldata newURI) external onlyOwner{
+      _nftBaseURI = newURI;
+    }
+
 }
