@@ -1,14 +1,11 @@
 import React, { Component } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Contents from "../components/Contents";
-import LinkBar from "../components/LinkBar";
 import Image from "next/image";
 import Alert from "react-bootstrap/Alert";
-
-import MintFromWeb from "../components/MintFromWeb";
-
 import Container from "react-bootstrap/Container";
+
+import Layout from "../components/Layout";
+import Contents from "../components/Contents";
+import MintFromWeb from "../components/MintFromWeb";
 
 import getWeb3 from "../ethereum/getWeb3";
 import getContract from "../ethereum/getContract";
@@ -38,9 +35,7 @@ export default class Home extends Component {
   render() {
     let { contract, web3 } = this.state;
     return (
-      <Container fluid style={{ backgroundColor: "black", color: "grey" }}>
-        <Header />
-        <LinkBar />
+      <Layout>
         <Contents />
         <MintFromWeb contract={contract} web3={web3} />
         {!!this.state.errorMessage ? (
@@ -50,8 +45,7 @@ export default class Home extends Component {
         ) : (
           <span></span>
         )}
-        <Footer />
-      </Container>
+      </Layout>
     );
   }
 }

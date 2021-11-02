@@ -7,8 +7,6 @@ import Faces from "./Faces";
 export default function Contents(props) {
   return (
     <Container id="roadmap">
-      <br />
-      <Image src={"/Dying_Worlds.jpg"} fluid />
       <h2>Roadmap</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
