@@ -16,7 +16,6 @@ export default class Home extends Component {
     accounts: null,
     contract: null,
     web3: null,
-
     errorMessage: "",
   };
   async componentDidMount() {
