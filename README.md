@@ -1,6 +1,5 @@
 # NFTCollectible
 
-In Root Folder:
-npx create-next-app@latest
+## Main Branch für https://www.youtube.com/watch?v=Y8c8QGhCcqQ&t=52s
 
-name: dyingworlds
+## react-app Branch für https://www.youtube.com/watch?v=...
