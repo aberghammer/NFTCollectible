@@ -51,6 +51,7 @@ export default class MintFromWeb extends Component {
   render() {
     return (
       <Container>
+        <h1>{this.state.amount}</h1>
         <Form onSubmit={this._onSubmitMint}>
           <Form.Check
             inline

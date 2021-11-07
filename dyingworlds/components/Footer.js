@@ -27,7 +27,7 @@ export default function Footer() {
       <div style={phantom} />
       <div style={style}>
         Check out the guide on youtube:{" "}
-        <a href="https://www.youtube.com/channel/UCvMlzPMDaqTTf_qtUyKDwlA">
+        <a href="https://www.youtube.com/watch?v=NqAGIMnDpsE">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="25"
